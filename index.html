@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon corporation</title><!-- changed title name-->
 </head>
 
 <body>
-    <header class="header"> <!-- changed div element to header as it contains navigation links an dis top of the page-->
+    <header> <!-- changed div element to header as it contains navigation links an dis top of the page-->
         <h1 class="seo">Horiseon</h1><!-- removed span and combined all the letters and added class to h1 tag-->
         <nav> <!-- changed div tag to nav as the below links are navigation links-->
             <ul>
@@ -24,31 +24,40 @@
             </ul>
         </nav>
     </header>
-    <section class="hero"></section><!-- div tag is changed to section tag as it is a section in a page-->
-    <article class="content"> <!-- div tag is changed to article tag as it contains self content-->
+    <figure class="hero">
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="digital-marketing-meeting">
+    </figure><!-- div tag is changed to section tag as it is a section in a page-->
+    <section class="content"> <!-- added section tag and removed class name for article and added class name for section-->
+    <article > <!-- div tag is changed to article tag as it contains self content-->
         <figure class="search-engine-optimization"><!-- changed div tag to figure as figure tag specifies self contained images-->
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization" class="float-left" /> <!-- added alt tag-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </figure>
+    </article>
+    <article ><!-- added article tag -->
         <figure class="search-engine-optimization"> <!-- changed div tag to figure as figure tag specifies self contained images and removed id as we have class-->
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="online-reputation-management" class="float-right" /> <!-- added alt tag-->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </figure>
+    </article>
+    <article > <!-- added article tag -->
         <figure class="search-engine-optimization"> <!-- changed div tag to figure as figure tag specifies self contained images and removed id as we have class-->
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" alt="social-media-marketing" class="float-left" /> <!-- added alt tag-->
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </figure>
     </article>
-    <article class="benefits"> <!-- div tag is changed to article tag -->
+    </section>
+    <section class="benefits"> <!-- added section tag and removed class name for article and added class name for section-->
+    <article > <!-- div tag is changed to article tag -->
         <figure class="benefit-lead"> <!-- changed div tag to figure -->
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="lead-generation"/> <!--added alt tag. if image is not loaded the content in alt appears as users can know something about picture.-->
@@ -56,6 +65,8 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </figure>
+    </article>
+    <article>
         <figure class="benefit-lead"> <!-- changed div tag to figure and changed class name to benefit-lead -->
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="brand-awareness"/> <!--added alt tag. if image is not loaded the content in alt appears as users can know something about picture.-->
@@ -63,6 +74,8 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </figure>
+    </article>
+    <article>
         <figure class="benefit-lead"> <!-- changed div tag to figure and changed class name to benefit-lead-->
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="cost-management"></img> <!--added alt tag. if image is not loaded the content in alt appears as users can know something about picture.-->
@@ -71,7 +84,8 @@
             </p>
         </figure>
     </article>
-    <footer class="footer"> <!-- div tag changed to footer as this is the bottom section of the page-->
+    </section>
+    <footer> <!-- div tag changed to footer as this is the bottom section of the page-->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
