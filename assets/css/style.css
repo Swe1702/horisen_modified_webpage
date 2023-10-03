@@ -16,14 +16,10 @@ header {
     color: #ffffff;
 }
 
-/* removed class name and added css for header tag. so I removed "." as it is a tag*/
+/* removed class name and added css for header tag. so I removed "." as it is a tag.*/
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-/* removed class name and added css for header tag. so I removed "." as it is a tag*/
-header h1 .seo {
     color: #d9dcd6;
 }
 
